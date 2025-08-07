@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #121212, #1DB954);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.player-container {
+  background: rgba(18, 18, 18, 0.85);
+  border: 1px solid #1db95450;
+  backdrop-filter: blur(15px);
+  padding: 30px;
+  border-radius: 20px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 0 20px #1DB95488;
+}
+
+.logo {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #1DB954;
+}
+
+.album-art img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 20px;
+  box-shadow: 0 0 12px #1db95477;
+  margin-bottom: 20px;
+}
+
+.song-info h2 {
+  margin: 10px 0 5px;
+  font-size: 20px;
+}
+
+.song-info p {
+  margin: 0 0 20px;
+  color: #bbb;
+}
+
+.controls button {
+  background-color: #1DB954;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  margin: 0 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px #1db95466;
+  transition: transform 0.2s ease;
+}
+
+.controls button:hover {
+  transform: scale(1.1);
+}
+
+#progress {
+  width: 100%;
+  margin-top: 20px;
+  accent-color: #1DB954;
+  height: 6px;
+  border-radius: 10px;
+  cursor: pointer;
+}

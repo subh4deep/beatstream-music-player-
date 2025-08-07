@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BeatStream</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="player-container">
+    <h1 class="logo">🎵 BeatStream</h1>
+
+    <div class="album-art">
+      <img id="cover" src="images/cover1.jpg" alt="Album Cover">
+    </div>
+
+    <div class="song-info">
+      <h2 id="title">Song Title</h2>
+      <p id="artist">Artist</p>
+    </div>
+
+    <audio id="audio"></audio>
+
+    <div class="controls">
+      <button id="prev">⏮</button>
+      <button id="play">▶️</button>
+      <button id="next">⏭</button>
+    </div>
+
+    <input type="range" id="progress" value="0" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
